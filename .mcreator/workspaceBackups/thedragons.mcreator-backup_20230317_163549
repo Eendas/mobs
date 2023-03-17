@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlackDragonAdult",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_dragon_adult",
+      "metadata": {
+        "files": [
+          "src/main/java/com/endass/mods/thedragons/client/renderer/BlackDragonAdultRenderer.java",
+          "src/main/resources/data/thedragons/forge/biome_modifier/black_dragon_adult_biome_modifier.json",
+          "src/main/resources/assets/thedragons/models/item/black_dragon_adult_spawn_egg.json",
+          "src/main/java/com/endass/mods/thedragons/entity/BlackDragonAdultEntity.java",
+          "src/main/java/com/endass/mods/thedragons/entity/model/BlackDragonAdultModel.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.thedragons.black_dragon_adult": "Black Dragon Adult",
+      "item.thedragons.black_dragon_adult_spawn_egg": "Black Dragon Adult Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thedragons",
+    "modName": "TheDragons",
+    "version": "1.0.0",
+    "author": "Nojus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.endass.mods.thedragons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

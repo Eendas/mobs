@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="thedragons"
+version="1.0.0"
+displayName="TheDragons"
+credits="Endas - mod development. Poe - models and textures."
+displayURL="https://endass.com"
+authors="Endas"
+description='''
+Dragons mod!
+'''
+
+[[dependencies.thedragons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.thedragons]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
